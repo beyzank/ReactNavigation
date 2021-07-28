@@ -9,11 +9,12 @@
 import React from "react";
 import { SafeAreaView, StyleSheet } from "react-native";
 import MyStack from "./src/screens/MyStack";
+import Tabs from "./src/screens/Tabs";
 
 const App = () => {
 
   return (
-      <MyStack/>
+      <Tabs/>
 );
 };
 
